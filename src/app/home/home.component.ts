@@ -53,6 +53,8 @@ export class HomeComponent implements OnInit {
             ]
         }
     ];
+
+
     selectedDep;
     public co: any;
     constructor(private route: ActivatedRoute) {
