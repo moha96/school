@@ -27,6 +27,20 @@ export class UserComponent implements OnInit {
         }
     ];
 
+    informationSystemSubjects = [
+        {
+            name: 'ITIS 103',
+            link: 'https://chat.whatsapp.com/BiZpQyWW4eR1HCNT8dyeX3'
+        }
+    ];
+
+    computerEngineeringSubjects = [
+        {
+            name: 'ITCE 101',
+            link: 'https://chat.whatsapp.com/DBsDHlxdIaaAC7YDFGsOhR'
+        }
+    ];
+
     mathSubjects = [
         {
             name: 'Math 101',
@@ -42,6 +56,24 @@ export class UserComponent implements OnInit {
         }
     ];
 
+    physicsSubjects = [
+        {
+            name: 'Phycs 101',
+            link: 'https://chat.whatsapp.com/GTIOGDzAkG4BM4foPrX9JC'
+        },
+        {
+            name: 'Phycs 102',
+            link: 'https://chat.whatsapp.com/IedRSBMa4COJFmg63thdEH'
+        }
+    ];
+
+    chimestrySubjects = [
+        {
+            name: 'CHEMY 101',
+            link: 'https://chat.whatsapp.com/FLT0QuLIndGCkFqIktgtOI'
+        }
+    ];
+
     constructor(private route: ActivatedRoute, private location: Location) {
         this.sub = this.route.params.subscribe(params => {
             this.id = params['id'];
@@ -49,6 +81,14 @@ export class UserComponent implements OnInit {
                 this.selectedSubjects = this.computerScienceSubjects;
             } else if (this.id === 'ma') {
                 this.selectedSubjects = this.mathSubjects;
+            } else if (this.id === 'ph') {
+                this.selectedSubjects = this.physicsSubjects;
+            } else if (this.id === 'ch') {
+                this.selectedSubjects = this.chimestrySubjects;
+            } else if (this.id === 'is') {
+                this.selectedSubjects = this.informationSystemSubjects;
+            } else if (this.id === 'ce') {
+                this.selectedSubjects = this.computerEngineeringSubjects;
             }
         });
     }

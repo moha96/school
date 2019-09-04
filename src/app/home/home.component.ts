@@ -21,15 +21,14 @@ export class HomeComponent implements OnInit {
                 {
                     name: 'Computer Science',
                     id: 'cs',
-                    subjects: [
-                        {
-                            name: 'ITCS 103',
-                            whatsappLink: 'https://chat.whatsapp.com/BvWtQ3y5jpfC1vMDtr5kDp'
-                        }, {
-                            name: 'ITCS 113',
-                            whatsappLink: 'https://chat.whatsapp.com/FoBHfNmyojv8WZkHtRzgEe'
-                        }
-                    ]
+                },
+                {
+                    name: 'Information System',
+                    id: 'is',
+                },
+                {
+                    name: 'Computer Engineering',
+                    id: 'ce',
                 }
             ]
         },
@@ -40,15 +39,14 @@ export class HomeComponent implements OnInit {
                 {
                     name: 'Math',
                     id: 'ma',
-                    subjects: [
-                        {
-                            name: 'Math 101',
-                            whatsappLink: 'https://chat.whatsapp.com/BvWtQ3y5jpfC1vMDtr5kDp'
-                        }, {
-                            name: 'Math 102',
-                            whatsappLink: 'https://chat.whatsapp.com/FoBHfNmyojv8WZkHtRzgEe'
-                        }
-                    ]
+                },
+                {
+                    name: 'Physics',
+                    id: 'ph',
+                },
+                {
+                    name: 'Chemistry',
+                    id: 'ch',
                 }
             ]
         }
