@@ -14,9 +14,29 @@ export class UserComponent implements OnInit {
     id;
     computerScienceSubjects = [
         {
+            name: 'CSC 103 Group 1',
+            link: 'https://chat.whatsapp.com/FSokjZ6johW78fSW83qepw'
+        },
+        {
+            name: 'CSC 103 Group 2',
+            link: 'https://chat.whatsapp.com/LqWjDQGlfA0KtgHCdonE0A'
+        },
+
+
+        {
             name: 'ITCS 103',
             link: 'https://chat.whatsapp.com/BvWtQ3y5jpfC1vMDtr5kDp'
         },
+        {
+            name: 'ITCS 111',
+            link: 'https://chat.whatsapp.com/DKISo10I8DU7YT7ZKr6Kgk'
+        },
+        {
+            name: 'ITCS 112',
+            link: 'https://chat.whatsapp.com/Hzl7nSaQgaa3Lp5O6RyZU0'
+        },
+
+
         {
             name: 'ITCS 113',
             link: 'https://chat.whatsapp.com/FoBHfNmyojv8WZkHtRzgEe'
@@ -24,7 +44,24 @@ export class UserComponent implements OnInit {
         {
             name: 'ITCS 114',
             link: 'https://chat.whatsapp.com/E9qIg6TtWzG1oO3wyLqkqZ'
+        },
+        {
+            name: 'ITCS 214',
+            link: 'https://chat.whatsapp.com/H8p7FTbXp5ABUihrQhzXXU'
+        },
+        {
+            name: 'ITCS 254',
+            link: 'https://chat.whatsapp.com/KxWcaU4kGAhJ34qU5hsbNZ'
+        },
+        {
+            name: 'ITCS 255',
+            link: 'https://chat.whatsapp.com/I1fOiZEZgedAQP4wmeOgI5'
+        },
+        {
+            name: 'ITCS 285',
+            link: 'https://chat.whatsapp.com/H8To0mXkex8LWQ41DzCpfj'
         }
+
     ];
 
     informationSystemSubjects = [
