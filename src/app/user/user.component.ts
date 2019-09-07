@@ -66,6 +66,27 @@ export class UserComponent implements OnInit {
         {
             name: 'ITIS 103',
             link: 'https://chat.whatsapp.com/BiZpQyWW4eR1HCNT8dyeX3'
+        }, {
+            name: 'ITIS 213',
+            link: 'https://chat.whatsapp.com/CTy4jj01eT1Fmt7ih9FjMg'
+        }, {
+            name: 'ITIS 222',
+            link: 'https://chat.whatsapp.com/K28rFZS75Mf1MpTILkEo3P'
+        }, {
+            name: 'ITIS 232',
+            link: 'https://chat.whatsapp.com/FMl3MB8NBwZDtgwzvwz8k9'
+        }, {
+            name: 'ITIS 241',
+            link: 'https://chat.whatsapp.com/KvutFwAGSO51OJ1DQLeBHh'
+        }, {
+            name: 'ITIS 243',
+            link: 'https://chat.whatsapp.com/EyWMiG0C0DJ3w7IFnJMchc'
+        }, {
+            name: 'ITIS 252',
+            link: 'https://chat.whatsapp.com/Cd81ch8yLSmCvtAVQpSTih'
+        }, {
+            name: 'ITIS 265',
+            link: 'https://chat.whatsapp.com/HybnQ4hHY6NG9jdZG2dhsu'
         }
     ];
 
