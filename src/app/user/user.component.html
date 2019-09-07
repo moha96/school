@@ -10,12 +10,14 @@
                 </div>
             </div>
             <div class="col-md-6" *ngFor="let sub of selectedSubjects">
-                <div class="card">
-                    <div class="header">
-                        <h4 class="title"> <a [href]="sub.link" target="_blank"> {{sub.name}} </a></h4>
-                        <br>
+                <a [href]="sub.link" target="_blank">
+                    <div class="card">
+                        <div class="header">
+                            <h4 class="title"> {{sub.name}}</h4>
+                            <br>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>

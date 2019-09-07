@@ -35,8 +35,6 @@ export class UserComponent implements OnInit {
             name: 'ITCS 112',
             link: 'https://chat.whatsapp.com/Hzl7nSaQgaa3Lp5O6RyZU0'
         },
-
-
         {
             name: 'ITCS 113',
             link: 'https://chat.whatsapp.com/FoBHfNmyojv8WZkHtRzgEe'
@@ -87,6 +85,28 @@ export class UserComponent implements OnInit {
             name: 'Math 102',
             link: 'https://chat.whatsapp.com/KgiSKLkEuHPCgkY6zxNAoE'
         },
+        {
+            name: 'Math 103',
+            link: 'https://chat.whatsapp.com/GqiGAUoMFvN2GrVyiixvVO'
+        },
+        {
+            name: 'Math 104',
+            link: 'https://chat.whatsapp.com/DuzQqZ8gZqz9hxR52lkwKu'
+        },
+        {
+            name: 'Math 203',
+            link: 'https://chat.whatsapp.com/FazCacZbMyv6E58XSWh04w'
+        },
+        {
+            name: 'Math 205',
+            link: 'https://chat.whatsapp.com/IwiBLqaPE162EmCJkMfW9m'
+        },
+        {
+            name: 'Math 211',
+            link: 'https://chat.whatsapp.com/H9TGYx0dnd5LiwZuXm1XMl'
+        },
+
+
         {
             name: 'Stat 273',
             link: 'https://chat.whatsapp.com/FtvTJI8LSvo2sBHknJVmyO'
